@@ -13,6 +13,7 @@
 
   - Compound Matchers (`.and`)
   - Composable Matchers
+  - [RSpec Expectations documentation](http://rubydoc.info/gems/rspec-expectations)
 
 * Contexts
 * Callbacks
