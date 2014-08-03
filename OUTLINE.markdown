@@ -6,21 +6,35 @@
 * Matchers - Part 1
 
   - The new `expect` syntax
+  - `be_an_instance_of` checks for specific class
+  - `be_a` checks for class in inheritance chain
 
 * Matchers - Part 2
 
-  - Compound Matchers
+  - Compound Matchers (`.and`)
   - Composable Matchers
 
 * Contexts
-* Filters
+* Callbacks
 
   - The new `before`s
 
 * Stubs
+
+  - `double`
+  - `allow().to receive().and_return()`
+
 * Mocks
 
+  - `expect().to receive().with()`
+  - `no_args`, `any_args`
+  - [RSpec Mocks documentation](http://rubydoc.info/gems/rspec-mocks)
+
 * Share Common Tests
+
+  - `shared_examples_for`
+  - `it_behaves_like`
+
 * Focus and Skip Tests
 
   - `fit`, `xit`
