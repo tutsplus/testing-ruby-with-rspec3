@@ -13,7 +13,12 @@ describe "Matchers" do
   end
 
   context "Complex matchers" do
-    it "has compound matchers"
-    it "has composable matchers"
+    it "has compound matchers" do
+      expect(5).to be_a(Numeric).and be > 4
+    end
+
+    xit "has composable matchers" do
+
+    end
   end
 end

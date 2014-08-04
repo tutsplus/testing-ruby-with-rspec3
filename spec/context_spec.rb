@@ -11,7 +11,7 @@ end
 class Post
 end
 
-fdescribe "Contexts" do
+describe "Contexts" do
   context "An empty blog" do
     let(:blog) { Blog.new }
 
