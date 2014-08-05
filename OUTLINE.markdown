@@ -16,7 +16,7 @@
   - [RSpec Expectations documentation](http://rubydoc.info/gems/rspec-expectations)
 
 * Contexts
-* Callbacks
+* Setup and Teardown
 
   - The new `before`s
 
