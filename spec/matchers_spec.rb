@@ -17,8 +17,30 @@ describe "Matchers" do
       expect(5).to be_a(Numeric).and be > 4
     end
 
-    xit "has composable matchers" do
+    fit "has composable matchers" do
+      class Product
+        def initialize id, name, category
+          @id = id
+          @name = name
+          @category = category
+        end
 
+        def serial_data
+          [
+            "X-",
+            @category[0],
+            @id
+          ]
+        end
+      end
+
+      product = Product.new 2856, "Tomato", "Fruit"
+
+      expect(product.serial_data).to match [
+        a_string_starting_with("X-"),
+        a_string_ending_with("F"),
+        a_value < 5000
+      ]
     end
   end
 end
