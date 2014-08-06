@@ -3,9 +3,10 @@
 * Introduction
 * Installing and Bootstrapping RSpec
 
-  - RVM
-  - rbenv
-  - chruby
+  - [RVM]()
+  - [rbenv]()
+  - [chruby]()
+  - [RSpec configuration options]()
 
 * Writing our First Test
 * Matchers - Part 1

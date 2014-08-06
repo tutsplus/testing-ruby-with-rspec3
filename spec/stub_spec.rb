@@ -1,4 +1,5 @@
 class Product
+  attr_reader :price
 end
 
 class PriceCalculator
@@ -18,8 +19,8 @@ end
 describe "Stubs" do
   it "allows for method stubbing" do
     calculator = PriceCalculator.new
-    calculator.add double(:product, price: 25.4)
-    calculator.add double(price: 101)
+    calculator.add instance_double("Product", price: 25.4)
+    calculator.add instance_double("Product", price: 101)
 
     expect(calculator.total).to eq 126.4
   end
