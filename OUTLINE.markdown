@@ -2,6 +2,11 @@
 
 * Introduction
 * Installing and Bootstrapping RSpec
+
+  - RVM
+  - rbenv
+  - chruby
+
 * Writing our First Test
 * Matchers - Part 1
 
