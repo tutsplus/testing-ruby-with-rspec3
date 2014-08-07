@@ -1,5 +1,10 @@
 class App < Sinatra::Base
-  get '/books' do
-    Book.all.map(&:name).join "\n"
+  post '/books' do
+    book = Book.new params[:book]
+    if book.save
+      status 201
+    else
+      status 502
+    end
   end
 end
