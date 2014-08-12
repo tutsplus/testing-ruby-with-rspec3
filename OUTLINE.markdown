@@ -1,6 +1,10 @@
 # Testing Ruby with RSpec 3
 
 * Introduction
+
+  - [Test-Driven Development in Ruby](http://courses.tutsplus.com/courses/test-driven-development-in-ruby)
+  - [Ruby Fundamentals course](http://courses.tutsplus.com/courses/the-fundamentals-of-ruby)
+
 * Installing and Bootstrapping RSpec
 
   - [RVM]()
@@ -11,15 +15,13 @@
 * Writing our First Test
 * Matchers - Part 1
 
-  - The new `expect` syntax
-  - `be_an_instance_of` checks for specific class
-  - `be_a` checks for class in inheritance chain
+  - [RSpec Expectations documentation](http://rubydoc.info/gems/rspec-expectations)
 
 * Matchers - Part 2
 
-  - Compound Matchers (`.and`)
-  - Composable Matchers
   - [RSpec Expectations documentation](http://rubydoc.info/gems/rspec-expectations)
+
+* Complex Matchers
 
 * Contexts
 * Setup and Teardown
@@ -54,6 +56,6 @@
 
 * RSpec with Rack
 
-  - Works with Sinatra, Grape, Padrino, Rails, etc.
+  - [Rack-Test documentation](http://rdoc.info/github/brynary/rack-test/master/frames)
 
 * Final review
