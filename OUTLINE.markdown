@@ -26,33 +26,20 @@
 * Contexts
 * Setup and Teardown
 
-  - The new `before`s
-
 * Stubs
-
-  - `double`
-  - `allow().to receive().and_return()`
 
 * Mocks
 
-  - `expect().to receive().with()`
-  - `no_args`, `any_args`
   - [RSpec Mocks documentation](http://rubydoc.info/gems/rspec-mocks)
 
 * Share Common Tests
 
-  - `shared_examples_for`
-  - `it_behaves_like`
-
 * Focus and Skip Tests
-
-  - `fit`, `xit`
-  - `xdescribe`, `fdescribe`
-  - `pending` vs `skip`
 
 * RSpec with ActiveRecord
 
-  - FactoryGirl
+  - [FactoryGirl](http://github.com/thoughtbot/factory_girl)
+  - [ActiveRecord](https://github.com/rails/rails/tree/master/activerecord)
 
 * RSpec with Rack
 
