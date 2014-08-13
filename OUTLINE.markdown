@@ -7,10 +7,10 @@
 
 * Installing and Bootstrapping RSpec
 
-  - [RVM]()
-  - [rbenv]()
-  - [chruby]()
-  - [RSpec configuration options]()
+  - [RVM](http://rvm.io)
+  - [rbenv](http://github.com/sstephenson/rbenv)
+  - [chruby](http://github.com/postmodern/chruby)
+  - [RSpec configuration options](http://rubydoc.info/gems/rspec-core)
 
 * Writing our First Test
 * Matchers - Part 1
